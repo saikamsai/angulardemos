@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    color: black;
+ 
+    background-image: url(assets\Im1.jpg);
+    height: 100%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+    
+}
+.base1{
+    background-color: white;
+    text-emphasis-color: rgb(38, 59, 177);
+
+    
+}
+.centered {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

@@ -1,0 +1,22 @@
+{
+  "employees": [
+    {
+      "id": 3,
+      "fname": "An",
+      "lname": "Smith",
+      "email": "ann@codingthesmartway.com"
+    },
+    {
+      "id": 4,
+      "fname": "saikam",
+      "lname": "swetha",
+      "email": "sai@g.com"
+    },
+    {
+      "id": 5,
+      "fname": "xyz",
+      "lname": "abc",
+      "email": "a@g.com"
+    }
+  ]
+}
