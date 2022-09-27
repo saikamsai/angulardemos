@@ -6,16 +6,7 @@ import { Component } from "@angular/core";
 })
 
 export class ProductListComponent{
-    pageTitle: String = 'Product List Page';
-    imageWidth:number = 80;
-    imageMargin:number = 10;
-
-    showImage:boolean = false;
-
-    toggleImage() : void {
-    this.showImage = !this.showImage;
-
-    console.log('Value of ShowImage inside function ::', this.showImage);   
-
-}
+  pageTitle:string="Product List Page"   
+  title = "Data binding using Property Binding";      
+  imgUrl="https://static.javatpoint.com/tutorial/angular7/images/angular-7-logo.png";  
 }

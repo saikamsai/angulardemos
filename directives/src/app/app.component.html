@@ -1,0 +1,9 @@
+<h1>{{ title | uppercase }} <br /></h1>
+<h1>{{ title | lowercase }} <br /></h1>
+
+<p
+  [ngStyle]="{ backgroundColor: getColor() }"
+  [ngClass]="{ Online: serverStatus === 'Online' }"
+>
+  Server with ID {{ serverID }} is {{ serverStatus }}.
+</p>
